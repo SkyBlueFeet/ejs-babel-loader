@@ -1,0 +1,18 @@
+{
+    "type": "object",
+    "properties": {
+        "attributes": {
+            "type": ["array", "false", "undefined"]
+        },
+        "template": {
+            "type": ["object", "undefined"]
+        },
+        "babel": {
+            "type": ["object", "undefined"]
+        },
+        "useBabel": {
+            "type": ["boolean", "undefined"]
+        }
+    },
+    "additionalProperties": false
+}
