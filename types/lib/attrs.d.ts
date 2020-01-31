@@ -1,2 +1,2 @@
-import { PluginOptions } from "./utils/getOptions";
-export default function (source: string, options: PluginOptions): string;
+import { attributes } from "./options";
+export default function (source: string, attrOption: attributes): string;

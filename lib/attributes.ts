@@ -1,9 +1,9 @@
 import parser from "./utils/attributesParser";
-import { PluginOptions } from "./utils/getOptions";
+import { attributes } from "./options";
 
-export default function(source: string, options: PluginOptions): string {
+export default function(source: string, attrOption: attributes): string {
     const attrs = parser(source, function(tag, attr) {
-        const res = (options.attributes as string[]).find(function(a) {
+        const res = attrOption.find(function(a) {
             if (a.charAt(0) === ":") {
                 return attr === a.slice(1);
             } else {

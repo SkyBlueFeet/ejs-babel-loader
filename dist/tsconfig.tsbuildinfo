@@ -433,13 +433,17 @@
         "version": "f416820e2e8f33a5e07698bd5f50acf6db29716d98896ec1bf11b483d3ed4c54",
         "signature": "f416820e2e8f33a5e07698bd5f50acf6db29716d98896ec1bf11b483d3ed4c54"
       },
-      "../lib/utils/schema.ts": {
-        "version": "98c822ba2e5dd62d51496bb325d800e3124fdc0d8ce05ecee4b341b8c998ec15",
-        "signature": "c8e8633a2f74456e3121ecc3d89d2187a341420532bb2a2b4d81f92b00270ff8"
+      "../lib/utils/chalklog.ts": {
+        "version": "1226693cb6860b76e63850ea8a3d4a02325ac33e11dccdd588cc1da3484188bb",
+        "signature": "6fef280e52d6d9929d03f94f581ce83addca8294a8f9bba62c763e861276465c"
       },
-      "../lib/utils/getOptions.ts": {
-        "version": "492244701aa2ef50f939ce6d8d2d2d48c051a8f31fae14447ac95395d05a11e3",
-        "signature": "abd47c7cdba8d69d663ca520455b2c0335870a63592e18654fcb421fc7039d24"
+      "../lib/schema.ts": {
+        "version": "40e3d979c3ff102b7038916ef863f1717710557670d7376d9a93ee94d3dd2801",
+        "signature": "c3f6783291cd5f354969fe9de512efe58f83660efaed147793a1451ce13438b0"
+      },
+      "../lib/options.ts": {
+        "version": "c9247e58f57a18e1166ddf35dec8b43941cbacb0cc263f2651e0b9eb02ca34bd",
+        "signature": "aa3cb80a2b504792faf720075a9ba0a4743173c9973628f7c2324c0401902165"
       },
       "../node_modules/@babel/types/lib/index.d.ts": {
         "version": "b05f0003bcf151be87491c83a4ba37b561798f1282b92cedb3a4e75a0224eb85",
@@ -466,19 +470,19 @@
         "signature": "8b6748f9e15ad7bac494dc3cd3b13ba0a8be195aca97f7c10a96b1c74a956f32"
       },
       "../lib/babel.ts": {
-        "version": "0f56bc1dac6564d539c928f3ce5429490b3b6e806dd394872d5b698759f44b31",
-        "signature": "5e21dec80e68ffb04974417e727a8694e75048bf8995dd5f1fb2eca05247d32f"
+        "version": "428cc4bc80bcbb6f6e3b4776ffd683f6cfe7712f6a3d0cc1fb21bb93b531f9a4",
+        "signature": "65638d0107b14e9d123605b7d4c4e145d91618de8c568359595174f782c7aef9"
       },
       "../lib/utils/attributesParser.ts": {
         "version": "39b7fa0a67efc513e4d8c14d1adbb887ff899265c4a88653fe6804fc8f487bc5",
         "signature": "eee1afb3daf6912a1bc8472f6468c124bedaa4b357f094852772c03568a50527"
       },
       "../lib/attrs.ts": {
-        "version": "5f35d1b25ce887bcb5dbf6e1db7d0620b409588a7631470cd0b36af32a180d2c",
-        "signature": "5c0812b62abb61346f684f3737cacd663a3096479448430bc9e85a09ef084a00"
+        "version": "cdbe337464d5157096d653ddc24bcb4848839db40b3b0be0bf8e31e59d32ff08",
+        "signature": "be1ed4ec657a5ab87d2334e353e4b23f35065c75abb5503abaf4a86180aafc95"
       },
       "../index.ts": {
-        "version": "9ae39590493ecf012ff807857f9770a58898c7fd91dff0e6b36b17b837ebdd7f",
+        "version": "0c281493a6967c3f80a848d80db3c4606a31ff742c4d3eaebeffa73946843eff",
         "signature": "da332aabd7db33b5bc1a96751bd16b4a0026986dbd70b44d3134aebc2af941b4"
       },
       "../lib/minify.ts": {
@@ -1440,19 +1444,26 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.5/util.d.ts"
       ],
-      "../lib/utils/schema.ts": [
-        "../lib/utils/getOptions.ts",
+      "../lib/utils/chalklog.ts": [
         "../node_modules/chalk/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.5/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.5/util.d.ts"
       ],
-      "../lib/utils/getOptions.ts": [
+      "../lib/schema.ts": [
+        "../lib/options.ts",
+        "../lib/utils/chalklog.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.5/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "../lib/options.ts": [
         "../node_modules/ts-loader-utils/dist/types/index.d.ts",
         "../node_modules/@types/lodash/ts3.1/index.d.ts",
         "../node_modules/@types/webpack/index.d.ts",
-        "../lib/utils/schema.ts",
+        "../lib/schema.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.5/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -1507,7 +1518,7 @@
       "../lib/babel.ts": [
         "../node_modules/@types/babel__core/index.d.ts",
         "../node_modules/@types/webpack/index.d.ts",
-        "../lib/utils/getOptions.ts",
+        "../lib/options.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.5/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -1521,7 +1532,7 @@
       ],
       "../lib/attrs.ts": [
         "../lib/utils/attributesParser.ts",
-        "../lib/utils/getOptions.ts",
+        "../lib/options.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.5/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -1530,7 +1541,7 @@
       "../index.ts": [
         "../node_modules/@types/lodash/ts3.1/index.d.ts",
         "../node_modules/@types/webpack/index.d.ts",
-        "../lib/utils/getOptions.ts",
+        "../lib/options.ts",
         "../lib/babel.ts",
         "../lib/attrs.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -1753,19 +1764,19 @@
       "../index.ts": [
         "../node_modules/@types/webpack/index.d.ts"
       ],
-      "../lib/utils/getOptions.ts": [
+      "../lib/options.ts": [
         "../node_modules/@types/lodash/ts3.1/index.d.ts",
         "../node_modules/@types/webpack/index.d.ts"
       ],
       "../lib/attrs.ts": [
-        "../lib/utils/getOptions.ts"
+        "../lib/options.ts"
       ],
       "../lib/babel.ts": [
         "../node_modules/@types/webpack/index.d.ts",
-        "../lib/utils/getOptions.ts"
+        "../lib/options.ts"
       ],
-      "../lib/utils/schema.ts": [
-        "../lib/utils/getOptions.ts"
+      "../lib/schema.ts": [
+        "../lib/options.ts"
       ],
       "../node_modules/@types/lodash/ts3.1/common/util.d.ts": [
         "../node_modules/@types/lodash/ts3.1/index.d.ts",
@@ -2614,8 +2625,9 @@
       "../node_modules/ts-loader-utils/dist/types/interpolateName.d.ts",
       "../node_modules/ts-loader-utils/dist/types/index.d.ts",
       "../node_modules/chalk/index.d.ts",
-      "../lib/utils/schema.ts",
-      "../lib/utils/getOptions.ts",
+      "../lib/utils/chalklog.ts",
+      "../lib/schema.ts",
+      "../lib/options.ts",
       "../node_modules/@babel/types/lib/index.d.ts",
       "../node_modules/@types/babel__generator/index.d.ts",
       "../node_modules/@types/babel__traverse/index.d.ts",
