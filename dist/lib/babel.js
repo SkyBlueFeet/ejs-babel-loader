@@ -19,10 +19,10 @@ function default_1(code, options) {
                 }
             ]
         ],
-        plugins: ["babel-plugin-transform-remove-strict-modes"]
+        plugins: []
     };
     if (options.useBabel) {
-        transformOption.plugins.push("babel-plugin-transform-remove-strict-modes");
+        transformOption.plugins.push("transform-remove-strict-mode-tags");
     }
     if (userOptions.advancedTranslation) {
         transformOption.presets[0][1] = Object.assign({}, transformOption.presets[0][1], advancedOptions);

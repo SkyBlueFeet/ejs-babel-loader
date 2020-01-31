@@ -2,9 +2,9 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const tslib_1 = require("tslib");
 const attributesParser_1 = tslib_1.__importDefault(require("./utils/attributesParser"));
-function default_1(source, options) {
+function default_1(source, attrOption) {
     const attrs = attributesParser_1.default(source, function (tag, attr) {
-        const res = options.attributes.find(function (a) {
+        const res = attrOption.find(function (a) {
             if (a.charAt(0) === ":") {
                 return attr === a.slice(1);
             }

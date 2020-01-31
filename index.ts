@@ -1,19 +1,22 @@
 import _ from "lodash";
 import webpack from "webpack";
-import getOptions from "./lib/utils/getOptions";
+import getOptions, { PluginOptions } from "./lib/options";
 import babel from "./lib/babel";
-import attrs from "./lib/attrs";
+import replaceAttrs from "./lib/attributes";
 
 export default function(
     this: webpack.loader.LoaderContext,
     source: string
 ): string {
     this.cacheable && this.cacheable();
-    const options = getOptions.apply(this);
-    source = attrs(source, options);
-    const result = "module.exports=" + _.template(source, options["template"]);
-    const func = options.useBabel
-        ? babel.apply(this, [result, options])
-        : result;
-    return func;
+    //获取 options
+    const options = getOptions.apply(this) as PluginOptions;
+
+    //提取 attributes
+    source = replaceAttrs(source, options.attributes);
+    source = "module.exports=" + _.template(source, options.template);
+    source = options.useBabel
+        ? babel.apply(this, [source, options.babel])
+        : source;
+    return source;
 }

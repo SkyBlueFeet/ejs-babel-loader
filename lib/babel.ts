@@ -1,38 +1,31 @@
 import { transform, TransformOptions } from "@babel/core";
 import webpack from "webpack";
-import { PluginOptions } from "./utils/getOptions";
+import { PluginBabelOptions } from "./options";
 
 export default function(
     this: webpack.loader.LoaderContext,
     code: string,
-    options: PluginOptions
+    options: PluginBabelOptions
 ): string {
-    const userOptions = options.babel;
-
     const advancedOptions = {
         corejs: "3", // 声明corejs版本
-        useBuiltIns: userOptions.useBuiltIns
+        useBuiltIns: options.useBuiltIns
     };
     const transformOption: TransformOptions = {
         presets: [
             [
                 "@babel/env",
                 {
-                    modules: userOptions.module,
+                    modules: options.module,
                     targets: {
-                        browsers: userOptions.browsers
+                        browsers: options.browsers
                     }
                 }
             ]
         ],
-        plugins: ["babel-plugin-transform-remove-strict-modes"]
+        plugins: []
     };
-    if (options.useBabel) {
-        transformOption.plugins.push(
-            "babel-plugin-transform-remove-strict-modes"
-        );
-    }
-    if (userOptions.advancedTranslation) {
+    if (options.advancedTranslation) {
         transformOption.presets[0][1] = Object.assign(
             {},
             transformOption.presets[0][1],
