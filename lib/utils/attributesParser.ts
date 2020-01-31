@@ -41,7 +41,7 @@ export interface ParseResultItem {
     value: string;
 }
 
-type attrSelector = (tag: string, attr: string) => boolean;
+export type attrSelector = (tag: string, attr: string) => boolean;
 
 export default function parse(
     html: string,

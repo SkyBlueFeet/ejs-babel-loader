@@ -4,6 +4,5 @@ export interface ParseResultItem {
     length: number;
     value: string;
 }
-declare type attrSelector = (tag: string, attr: string) => boolean;
+export declare type attrSelector = (tag: string, attr: string) => boolean;
 export default function parse(html: string, isRelevantTagAttr: attrSelector): Array<ParseResultItem>;
-export {};

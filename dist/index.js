@@ -7,12 +7,12 @@ const babel_1 = tslib_1.__importDefault(require("./lib/babel"));
 const attrs_1 = tslib_1.__importDefault(require("./lib/attrs"));
 function default_1(source) {
     this.cacheable && this.cacheable();
-    const options = getOptions_1.default(this);
+    const options = getOptions_1.default.apply(this);
     source = attrs_1.default(source, options);
-    const resultFunc = "module.exports=" + lodash_1.default.template(source, options["template"]);
-    const templateStr = options.useBabel
-        ? babel_1.default.apply(this, [resultFunc, options])
-        : resultFunc;
-    return templateStr;
+    const result = "module.exports=" + lodash_1.default.template(source, options["template"]);
+    const func = options.useBabel
+        ? babel_1.default.apply(this, [result, options])
+        : result;
+    return func;
 }
 exports.default = default_1;

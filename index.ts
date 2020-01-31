@@ -9,12 +9,11 @@ export default function(
     source: string
 ): string {
     this.cacheable && this.cacheable();
-    const options = getOptions(this);
+    const options = getOptions.apply(this);
     source = attrs(source, options);
-    const resultFunc =
-        "module.exports=" + _.template(source, options["template"]);
-    const templateStr = options.useBabel
-        ? babel.apply(this, [resultFunc, options])
-        : resultFunc;
-    return templateStr;
+    const result = "module.exports=" + _.template(source, options["template"]);
+    const func = options.useBabel
+        ? babel.apply(this, [result, options])
+        : result;
+    return func;
 }

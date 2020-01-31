@@ -3,11 +3,13 @@ import { getOptions } from "ts-loader-utils";
 import { TemplateOptions } from "lodash";
 
 import webpack = require("webpack");
+import schema from "lib/schema";
 export type PluginTemplateOptions = TemplateOptions;
 
 export type useBuiltIns = "usage" | false | "entry";
 
 export interface PluginBabelOptions {
+    useStrict?: boolean;
     browsers?: string[];
     module?: boolean;
     advancedTranslation?: boolean;
@@ -17,13 +19,13 @@ export interface PluginBabelOptions {
 export interface PluginOptions {
     template?: PluginTemplateOptions;
     useBabel?: boolean;
-    attributes?: string[] | false;
+    attributes?: string[];
     babel?: PluginBabelOptions;
 }
 
-export default function(Context: webpack.loader.LoaderContext): PluginOptions {
-    const userOptions: PluginOptions = getOptions(Context) as PluginOptions;
-    const defaultAttrs = userOptions.attributes || ["img:src"];
+export default function(this: webpack.loader.LoaderContext): PluginOptions {
+    const userOptions: PluginOptions = schema(getOptions(this));
+    const defaultAttrs = ["img:src"];
     const defaultBrowers = ["> 1%", "last 2 versions", "not ie <= 8"];
 
     if (this.query) {
@@ -31,13 +33,17 @@ export default function(Context: webpack.loader.LoaderContext): PluginOptions {
             'The "query" field is no longer supported, please use the "options" field to fill in the loader configuration'
         );
     }
-    const options: PluginOptions = {
+    const finalAttrs = !userOptions.attributes
+        ? defaultAttrs
+        : userOptions.attributes;
+    return {
         template: {
             ...userOptions.template
         },
-        attributes: [...defaultAttrs],
+        attributes: [...finalAttrs],
         useBabel: true,
         babel: {
+            useStrict: false,
             browsers: defaultBrowers,
             advancedTranslation: false,
             module: false,
@@ -45,5 +51,4 @@ export default function(Context: webpack.loader.LoaderContext): PluginOptions {
             ...userOptions.babel
         }
     };
-    return options;
 }

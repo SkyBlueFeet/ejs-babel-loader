@@ -429,9 +429,17 @@
         "version": "9a20fb0036e2cf45b8c7f5564ceec2a660856349143bebe1acff47508b5f1101",
         "signature": "9a20fb0036e2cf45b8c7f5564ceec2a660856349143bebe1acff47508b5f1101"
       },
+      "../node_modules/chalk/index.d.ts": {
+        "version": "f416820e2e8f33a5e07698bd5f50acf6db29716d98896ec1bf11b483d3ed4c54",
+        "signature": "f416820e2e8f33a5e07698bd5f50acf6db29716d98896ec1bf11b483d3ed4c54"
+      },
+      "../lib/schema.ts": {
+        "version": "b4197d7358e1a467613d3d689ec976f7d462c3a1dd58e5de91941ff9f018d773",
+        "signature": "2ccf36fb8f2661490c2ee7b251e370f179a472dcf747cb49475357da42ae1c25"
+      },
       "../lib/utils/getOptions.ts": {
-        "version": "2ec9a9fdea1619d0a19c05ff45169f9e3fbd67b69cbfdc6c350bcc80fadf1154",
-        "signature": "448e7faf6f618fcdbd783641f0d5560a7daadda57a922d096c66786847c37fb7"
+        "version": "8e490b2937abb545ec4150a9223ee420d8227387a418b0d646f31a29e728e102",
+        "signature": "abd47c7cdba8d69d663ca520455b2c0335870a63592e18654fcb421fc7039d24"
       },
       "../node_modules/@babel/types/lib/index.d.ts": {
         "version": "b05f0003bcf151be87491c83a4ba37b561798f1282b92cedb3a4e75a0224eb85",
@@ -458,19 +466,19 @@
         "signature": "8b6748f9e15ad7bac494dc3cd3b13ba0a8be195aca97f7c10a96b1c74a956f32"
       },
       "../lib/babel.ts": {
-        "version": "52d45c3649acca5de1a56878a8cb7a696baf601971581a91eccb57cf95d8facc",
+        "version": "0f56bc1dac6564d539c928f3ce5429490b3b6e806dd394872d5b698759f44b31",
         "signature": "5e21dec80e68ffb04974417e727a8694e75048bf8995dd5f1fb2eca05247d32f"
       },
       "../lib/utils/attributesParser.ts": {
-        "version": "bf250138afea85aac5cb98b336483ecaba1e959f00ba9b35fedc471e4d20638a",
-        "signature": "e04727dc05ccc2698dc18f50e032f440e92ecc3bac9fd99974b414c0f3588016"
+        "version": "39b7fa0a67efc513e4d8c14d1adbb887ff899265c4a88653fe6804fc8f487bc5",
+        "signature": "eee1afb3daf6912a1bc8472f6468c124bedaa4b357f094852772c03568a50527"
       },
       "../lib/attrs.ts": {
         "version": "5f35d1b25ce887bcb5dbf6e1db7d0620b409588a7631470cd0b36af32a180d2c",
         "signature": "5c0812b62abb61346f684f3737cacd663a3096479448430bc9e85a09ef084a00"
       },
       "../index.ts": {
-        "version": "b6de4309262e51e8ca79eff6147ced13cddff9569d857c337faed5dbd40c423e",
+        "version": "9ae39590493ecf012ff807857f9770a58898c7fd91dff0e6b36b17b837ebdd7f",
         "signature": "da332aabd7db33b5bc1a96751bd16b4a0026986dbd70b44d3134aebc2af941b4"
       },
       "../lib/minify.ts": {
@@ -1426,10 +1434,25 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.5/util.d.ts"
       ],
+      "../node_modules/chalk/index.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.5/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "../lib/schema.ts": [
+        "../lib/utils/getOptions.ts",
+        "../node_modules/chalk/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.5/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.5/util.d.ts"
+      ],
       "../lib/utils/getOptions.ts": [
         "../node_modules/ts-loader-utils/dist/types/index.d.ts",
         "../node_modules/@types/lodash/ts3.1/index.d.ts",
         "../node_modules/@types/webpack/index.d.ts",
+        "../lib/schema.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.5/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -1739,6 +1762,9 @@
       ],
       "../lib/babel.ts": [
         "../node_modules/@types/webpack/index.d.ts",
+        "../lib/utils/getOptions.ts"
+      ],
+      "../lib/schema.ts": [
         "../lib/utils/getOptions.ts"
       ],
       "../node_modules/@types/lodash/ts3.1/common/util.d.ts": [
@@ -2335,6 +2361,12 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.5/util.d.ts"
       ],
+      "../node_modules/chalk/index.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.5/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.5/util.d.ts"
+      ],
       "../node_modules/ts-loader-utils/dist/types/parseString.d.ts": [
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.5/fs.d.ts",
@@ -2581,6 +2613,8 @@
       "../node_modules/ts-loader-utils/dist/types/getHashDigest.d.ts",
       "../node_modules/ts-loader-utils/dist/types/interpolateName.d.ts",
       "../node_modules/ts-loader-utils/dist/types/index.d.ts",
+      "../node_modules/chalk/index.d.ts",
+      "../lib/schema.ts",
       "../lib/utils/getOptions.ts",
       "../node_modules/@babel/types/lib/index.d.ts",
       "../node_modules/@types/babel__generator/index.d.ts",

@@ -1,4 +1,4 @@
-import { transform } from "@babel/core";
+import { transform, TransformOptions } from "@babel/core";
 import webpack from "webpack";
 import { PluginOptions } from "./utils/getOptions";
 
@@ -13,7 +13,7 @@ export default function(
         corejs: "3", // 声明corejs版本
         useBuiltIns: userOptions.useBuiltIns
     };
-    const transformOption = {
+    const transformOption: TransformOptions = {
         presets: [
             [
                 "@babel/env",
@@ -25,8 +25,13 @@ export default function(
                 }
             ]
         ],
-        plugins: []
+        plugins: ["babel-plugin-transform-remove-strict-modes"]
     };
+    if (options.useBabel) {
+        transformOption.plugins.push(
+            "babel-plugin-transform-remove-strict-modes"
+        );
+    }
     if (userOptions.advancedTranslation) {
         transformOption.presets[0][1] = Object.assign(
             {},

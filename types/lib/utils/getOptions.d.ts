@@ -3,6 +3,7 @@ import webpack = require("webpack");
 export declare type PluginTemplateOptions = TemplateOptions;
 export declare type useBuiltIns = "usage" | false | "entry";
 export interface PluginBabelOptions {
+    useStrict?: boolean;
     browsers?: string[];
     module?: boolean;
     advancedTranslation?: boolean;
@@ -11,7 +12,7 @@ export interface PluginBabelOptions {
 export interface PluginOptions {
     template?: PluginTemplateOptions;
     useBabel?: boolean;
-    attributes?: string[] | false;
+    attributes?: string[];
     babel?: PluginBabelOptions;
 }
-export default function (Context: webpack.loader.LoaderContext): PluginOptions;
+export default function (this: webpack.loader.LoaderContext): PluginOptions;
