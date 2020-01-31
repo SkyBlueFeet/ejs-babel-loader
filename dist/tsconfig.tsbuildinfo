@@ -433,12 +433,12 @@
         "version": "f416820e2e8f33a5e07698bd5f50acf6db29716d98896ec1bf11b483d3ed4c54",
         "signature": "f416820e2e8f33a5e07698bd5f50acf6db29716d98896ec1bf11b483d3ed4c54"
       },
-      "../lib/schema.ts": {
-        "version": "b4197d7358e1a467613d3d689ec976f7d462c3a1dd58e5de91941ff9f018d773",
-        "signature": "2ccf36fb8f2661490c2ee7b251e370f179a472dcf747cb49475357da42ae1c25"
+      "../lib/utils/schema.ts": {
+        "version": "98c822ba2e5dd62d51496bb325d800e3124fdc0d8ce05ecee4b341b8c998ec15",
+        "signature": "c8e8633a2f74456e3121ecc3d89d2187a341420532bb2a2b4d81f92b00270ff8"
       },
       "../lib/utils/getOptions.ts": {
-        "version": "8e490b2937abb545ec4150a9223ee420d8227387a418b0d646f31a29e728e102",
+        "version": "492244701aa2ef50f939ce6d8d2d2d48c051a8f31fae14447ac95395d05a11e3",
         "signature": "abd47c7cdba8d69d663ca520455b2c0335870a63592e18654fcb421fc7039d24"
       },
       "../node_modules/@babel/types/lib/index.d.ts": {
@@ -1440,7 +1440,7 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.5/util.d.ts"
       ],
-      "../lib/schema.ts": [
+      "../lib/utils/schema.ts": [
         "../lib/utils/getOptions.ts",
         "../node_modules/chalk/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -1452,7 +1452,7 @@
         "../node_modules/ts-loader-utils/dist/types/index.d.ts",
         "../node_modules/@types/lodash/ts3.1/index.d.ts",
         "../node_modules/@types/webpack/index.d.ts",
-        "../lib/schema.ts",
+        "../lib/utils/schema.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.5/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -1764,7 +1764,7 @@
         "../node_modules/@types/webpack/index.d.ts",
         "../lib/utils/getOptions.ts"
       ],
-      "../lib/schema.ts": [
+      "../lib/utils/schema.ts": [
         "../lib/utils/getOptions.ts"
       ],
       "../node_modules/@types/lodash/ts3.1/common/util.d.ts": [
@@ -2614,7 +2614,7 @@
       "../node_modules/ts-loader-utils/dist/types/interpolateName.d.ts",
       "../node_modules/ts-loader-utils/dist/types/index.d.ts",
       "../node_modules/chalk/index.d.ts",
-      "../lib/schema.ts",
+      "../lib/utils/schema.ts",
       "../lib/utils/getOptions.ts",
       "../node_modules/@babel/types/lib/index.d.ts",
       "../node_modules/@types/babel__generator/index.d.ts",

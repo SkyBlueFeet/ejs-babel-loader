@@ -1,13 +1,13 @@
 {
     "name": "ejs-babel-loader",
-    "version": "1.2.0",
+    "version": "1.2.3",
     "description": "Webpack loader program that handles lodash template and supports babel translation",
     "main": "./dist/index.js",
     "typings": "./types/index.d.ts",
     "types": "./types/index.d.ts",
     "scripts": {
         "build": "rimraf types && rimraf dist && tsc",
-        "publish": "npm run build && npm publish"
+        "toPublish": "npm publish"
     },
     "repository": {
         "type": "git",

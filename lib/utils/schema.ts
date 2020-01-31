@@ -1,4 +1,4 @@
-import { PluginOptions } from "./utils/getOptions";
+import { PluginOptions } from "./getOptions";
 import chalk from "chalk";
 
 type messsageType = "danger" | "warn" | "info";

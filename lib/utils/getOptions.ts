@@ -3,7 +3,7 @@ import { getOptions } from "ts-loader-utils";
 import { TemplateOptions } from "lodash";
 
 import webpack = require("webpack");
-import schema from "lib/schema";
+import schema from "./schema";
 export type PluginTemplateOptions = TemplateOptions;
 
 export type useBuiltIns = "usage" | false | "entry";
