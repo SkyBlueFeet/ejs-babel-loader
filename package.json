@@ -1,6 +1,6 @@
 {
     "name": "ejs-babel-loader",
-    "version": "1.3.5",
+    "version": "1.4.0",
     "description": "Webpack loader program that handles lodash template and supports babel translation",
     "main": "./dist/index.js",
     "typings": "./types/index.d.ts",
@@ -9,6 +9,7 @@
         "build": "rimraf types && rimraf dist && tsc",
         "toPublish": "nrm use npm && npm publish && nrm use cnpm"
     },
+    "readme": "README.md",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/SkyBlueFeet/ejs-babel-loader.git"
@@ -47,7 +48,7 @@
         "chalk": "^3.0.0",
         "fastparse": "^1.1.2",
         "lodash.template": "^4.5.0",
-        "skyui-utils-collection": "^1.0.0",
+        "skyui-utils-collection": "^1.0.1",
         "ts-loader-utils": "^1.1.2"
     }
 }

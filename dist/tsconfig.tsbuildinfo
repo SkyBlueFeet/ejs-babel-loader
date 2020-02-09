@@ -21,6 +21,10 @@
         "version": "9c67dcc7ca897b61f58d57d487bc9f07950546e5ac8701cbc41a8a4fec48b091",
         "signature": "9c67dcc7ca897b61f58d57d487bc9f07950546e5ac8701cbc41a8a4fec48b091"
       },
+      "../node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "d93de5e8a7275cb9d47481410e13b3b1debb997e216490954b5d106e37e086de",
+        "signature": "d93de5e8a7275cb9d47481410e13b3b1debb997e216490954b5d106e37e086de"
+      },
       "../node_modules/typescript/lib/lib.es2015.core.d.ts": {
         "version": "734ddc145e147fbcd55f07d034f50ccff1086f5a880107665ec326fb368876f6",
         "signature": "734ddc145e147fbcd55f07d034f50ccff1086f5a880107665ec326fb368876f6"
@@ -242,8 +246,8 @@
         "signature": "4218ced3933a31eed1278d350dd63c5900df0f0904f57d61c054d7a4b83dbe4c"
       },
       "../node_modules/@types/node/module.d.ts": {
-        "version": "a8ddda059f6cd8b531f62dc2d66c8132bfacc6fae9d5da1dc4ad608712360c5f",
-        "signature": "a8ddda059f6cd8b531f62dc2d66c8132bfacc6fae9d5da1dc4ad608712360c5f"
+        "version": "a376e245f494b58365a4391a2568e6dd9da372c3453f4732eb6e15ebb9038451",
+        "signature": "a376e245f494b58365a4391a2568e6dd9da372c3453f4732eb6e15ebb9038451"
       },
       "../node_modules/@types/node/net.d.ts": {
         "version": "ffe8912b7c45288810c870b768190c6c097459930a587dd6ef0d900a5529a811",
@@ -357,7 +361,7 @@
         "version": "963e0182287755a18c98493cd70f6747b776f1a54c8620353e1f8e2e17b6cd3a",
         "signature": "963e0182287755a18c98493cd70f6747b776f1a54c8620353e1f8e2e17b6cd3a"
       },
-      "../node_modules/source-map/source-map.d.ts": {
+      "../node_modules/@types/uglify-js/node_modules/source-map/source-map.d.ts": {
         "version": "2887592574fcdfd087647c539dcb0fbe5af2521270dad4a37f9d17c16190d579",
         "signature": "2887592574fcdfd087647c539dcb0fbe5af2521270dad4a37f9d17c16190d579"
       },
@@ -369,6 +373,14 @@
         "version": "48b52264fa193879a074197839dbb4796fa07e86350ff888e5361e06aa46df76",
         "signature": "48b52264fa193879a074197839dbb4796fa07e86350ff888e5361e06aa46df76"
       },
+      "../node_modules/@types/webpack/node_modules/source-map/source-map.d.ts": {
+        "version": "2887592574fcdfd087647c539dcb0fbe5af2521270dad4a37f9d17c16190d579",
+        "signature": "2887592574fcdfd087647c539dcb0fbe5af2521270dad4a37f9d17c16190d579"
+      },
+      "../node_modules/@types/webpack-sources/node_modules/source-map/source-map.d.ts": {
+        "version": "2887592574fcdfd087647c539dcb0fbe5af2521270dad4a37f9d17c16190d579",
+        "signature": "2887592574fcdfd087647c539dcb0fbe5af2521270dad4a37f9d17c16190d579"
+      },
       "../node_modules/@types/source-list-map/index.d.ts": {
         "version": "67fc055eb86a0632e2e072838f889ffe1754083cb13c8c80a06a7d895d877aae",
         "signature": "67fc055eb86a0632e2e072838f889ffe1754083cb13c8c80a06a7d895d877aae"
@@ -378,8 +390,8 @@
         "signature": "ab95c4625e16499b8181731576984bcdfd0438a9a87b5f7de8299de5c912a241"
       },
       "../node_modules/@types/webpack/index.d.ts": {
-        "version": "ac5c629fbc699258ee8d5218d0daaaa2cdf8544ce6d826313ed74db23184e1e4",
-        "signature": "ac5c629fbc699258ee8d5218d0daaaa2cdf8544ce6d826313ed74db23184e1e4"
+        "version": "b8dd5fcd3eca9de1a299822cfaebd1fac0ddab6b3b0a73fd4ae8d4764a827e8b",
+        "signature": "b8dd5fcd3eca9de1a299822cfaebd1fac0ddab6b3b0a73fd4ae8d4764a827e8b"
       },
       "../node_modules/ts-loader-utils/dist/types/getOptions.d.ts": {
         "version": "c43c04eaafb3220153b92529954372913069d51ded4bc01723987bcf24023e08",
@@ -434,8 +446,8 @@
         "signature": "d3c4556281b4f9268a5b4a9ab699660d21bc4079f9688fd18af2be97226630b0"
       },
       "../node_modules/skyui-utils-collection/types/src/apply.d.ts": {
-        "version": "1e5fdba7672fdce85977875c6fa2e7171c3f3eeb77c47d0d71556c9be4507348",
-        "signature": "1e5fdba7672fdce85977875c6fa2e7171c3f3eeb77c47d0d71556c9be4507348"
+        "version": "b2d01d131b49dea9d328d74e6053809c7af1851b46b6fb54bea0017a2d85cac2",
+        "signature": "b2d01d131b49dea9d328d74e6053809c7af1851b46b6fb54bea0017a2d85cac2"
       },
       "../node_modules/skyui-utils-collection/types/src/object.d.ts": {
         "version": "32206b85858065de4ef09ab8d6a7f1ac6e1fbcc59fc94cfdb46be19c7a134bae",
@@ -446,8 +458,8 @@
         "signature": "37419783859bc574386c38f588b51952a1f2e925737fcbc37579f148a5c44cbb"
       },
       "../node_modules/skyui-utils-collection/types/index.d.ts": {
-        "version": "dc0c568ca2de7e94da14571104dc3d3a2b8289ce29413125c2df9fdfff6ca206",
-        "signature": "dc0c568ca2de7e94da14571104dc3d3a2b8289ce29413125c2df9fdfff6ca206"
+        "version": "6a7071c241299ae56676ab0b1e24797f102ab5ae45f574d5f70bb0d29587fc89",
+        "signature": "6a7071c241299ae56676ab0b1e24797f102ab5ae45f574d5f70bb0d29587fc89"
       },
       "../lib/options.ts": {
         "version": "8b0bd2872ea669e71276062545a31695d1f73f32f3f0d4800a9879c644473069",
@@ -533,11 +545,11 @@
       "lib": [
         "lib.es2015.d.ts",
         "lib.es2016.d.ts",
-        "lib.es2017.d.ts"
+        "lib.es2017.d.ts",
+        "lib.dom.d.ts"
       ],
       "types": [
-        "webpack",
-        "lodash"
+        "webpack"
       ],
       "configFilePath": "../tsconfig.json"
     },
@@ -567,6 +579,12 @@
         "../node_modules/@types/node/ts3.5/util.d.ts"
       ],
       "../node_modules/typescript/lib/lib.es2018.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.5/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "../node_modules/typescript/lib/lib.dom.d.ts": [
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.5/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -1324,20 +1342,32 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.5/util.d.ts"
       ],
-      "../node_modules/source-map/source-map.d.ts": [
+      "../node_modules/@types/uglify-js/node_modules/source-map/source-map.d.ts": [
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.5/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.5/util.d.ts"
       ],
       "../node_modules/@types/uglify-js/index.d.ts": [
-        "../node_modules/source-map/source-map.d.ts",
+        "../node_modules/@types/uglify-js/node_modules/source-map/source-map.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.5/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.5/util.d.ts"
       ],
       "../node_modules/@types/anymatch/index.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.5/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "../node_modules/@types/webpack/node_modules/source-map/source-map.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.5/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "../node_modules/@types/webpack-sources/node_modules/source-map/source-map.d.ts": [
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.5/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -1351,7 +1381,7 @@
       ],
       "../node_modules/@types/webpack-sources/index.d.ts": [
         "../node_modules/@types/node/crypto.d.ts",
-        "../node_modules/source-map/source-map.d.ts",
+        "../node_modules/@types/uglify-js/node_modules/source-map/source-map.d.ts",
         "../node_modules/@types/source-list-map/index.d.ts",
         "../node_modules/@types/node/ts3.5/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -1363,7 +1393,7 @@
         "../node_modules/@types/tapable/index.d.ts",
         "../node_modules/@types/uglify-js/index.d.ts",
         "../node_modules/@types/anymatch/index.d.ts",
-        "../node_modules/source-map/source-map.d.ts",
+        "../node_modules/@types/uglify-js/node_modules/source-map/source-map.d.ts",
         "../node_modules/@types/webpack-sources/index.d.ts",
         "../node_modules/@types/node/ts3.5/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -1645,6 +1675,12 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.5/util.d.ts"
       ],
+      "../node_modules/typescript/lib/lib.dom.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.5/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.5/util.d.ts"
+      ],
       "../node_modules/typescript/lib/lib.es2015.core.d.ts": [
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.5/fs.d.ts",
@@ -2133,7 +2169,7 @@
         "../node_modules/@types/tapable/index.d.ts",
         "../node_modules/@types/uglify-js/index.d.ts",
         "../node_modules/@types/anymatch/index.d.ts",
-        "../node_modules/source-map/source-map.d.ts",
+        "../node_modules/@types/uglify-js/node_modules/source-map/source-map.d.ts",
         "../node_modules/@types/webpack-sources/index.d.ts",
         "../node_modules/@types/node/ts3.5/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -2178,7 +2214,7 @@
       ],
       "../node_modules/@types/webpack-sources/index.d.ts": [
         "../node_modules/@types/node/crypto.d.ts",
-        "../node_modules/source-map/source-map.d.ts",
+        "../node_modules/@types/uglify-js/node_modules/source-map/source-map.d.ts",
         "../node_modules/@types/source-list-map/index.d.ts",
         "../node_modules/@types/node/ts3.5/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -2514,6 +2550,18 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.5/util.d.ts"
       ],
+      "../node_modules/@types/webpack-sources/node_modules/source-map/source-map.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.5/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "../node_modules/@types/webpack/node_modules/source-map/source-map.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.5/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.5/util.d.ts"
+      ],
       "../node_modules/@types/anymatch/index.d.ts": [
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.5/fs.d.ts",
@@ -2521,13 +2569,13 @@
         "../node_modules/@types/node/ts3.5/util.d.ts"
       ],
       "../node_modules/@types/uglify-js/index.d.ts": [
-        "../node_modules/source-map/source-map.d.ts",
+        "../node_modules/@types/uglify-js/node_modules/source-map/source-map.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.5/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.5/util.d.ts"
       ],
-      "../node_modules/source-map/source-map.d.ts": [
+      "../node_modules/@types/uglify-js/node_modules/source-map/source-map.d.ts": [
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.5/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -2700,9 +2748,11 @@
       "../node_modules/@types/node/ts3.5/wasi.d.ts",
       "../node_modules/@types/node/ts3.5/index.d.ts",
       "../node_modules/@types/tapable/index.d.ts",
-      "../node_modules/source-map/source-map.d.ts",
+      "../node_modules/@types/uglify-js/node_modules/source-map/source-map.d.ts",
       "../node_modules/@types/uglify-js/index.d.ts",
       "../node_modules/@types/anymatch/index.d.ts",
+      "../node_modules/@types/webpack/node_modules/source-map/source-map.d.ts",
+      "../node_modules/@types/webpack-sources/node_modules/source-map/source-map.d.ts",
       "../node_modules/@types/source-list-map/index.d.ts",
       "../node_modules/@types/webpack-sources/index.d.ts",
       "../node_modules/@types/webpack/index.d.ts",
@@ -2764,6 +2814,7 @@
       "../node_modules/typescript/lib/lib.es2015.generator.d.ts",
       "../node_modules/typescript/lib/lib.es2015.collection.d.ts",
       "../node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "../node_modules/typescript/lib/lib.dom.d.ts",
       "../node_modules/typescript/lib/lib.es5.d.ts"
     ]
   },

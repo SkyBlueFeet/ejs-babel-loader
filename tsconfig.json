@@ -19,8 +19,8 @@
         "baseUrl": "./",
         "noEmit": false,
         "outDir": "dist",
-        "lib": ["ES2015", "ES2016", "ES2017"],
-        "types": ["webpack", "lodash"]
+        "lib": ["ES2015", "ES2016", "ES2017", "DOM"],
+        "types": ["webpack"]
     },
     "exclude": ["node_modules", "dist", "types"]
 }
