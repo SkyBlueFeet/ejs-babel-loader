@@ -1,4 +1,4 @@
-import _ from "lodash";
+import template from "lodash.template";
 import webpack from "webpack";
 import getOptions, { PluginOptions } from "./lib/options";
 import babel from "./lib/babel";
@@ -14,7 +14,7 @@ export default function(
 
     //提取 attributes
     source = replaceAttrs(source, options.attributes);
-    source = "module.exports=" + _.template(source, options.template);
+    source = "module.exports=" + template(source, options.template);
     source = options.useBabel
         ? babel.apply(this, [source, options.babel])
         : source;

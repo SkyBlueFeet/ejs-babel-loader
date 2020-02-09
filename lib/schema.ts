@@ -1,4 +1,5 @@
 import _ from "lodash";
+import utils from "skyui-utils-collection";
 
 import {
     PluginOptions,
@@ -56,7 +57,10 @@ function validateTemplate(
 ): pluginTemplateOptions {
     if (template as pluginTemplateOptions) {
         if (
-            !(_.isUndefined(template.variable) && _.isString(template.variable))
+            !(
+                utils.isUndefinedOrNull(template.variable) &&
+                typeof template.variable === "string"
+            )
         ) {
             chalklog({
                 type: "warn",

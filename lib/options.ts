@@ -1,10 +1,8 @@
-import { getOptions, parseQuery } from "ts-loader-utils";
-import _ from "lodash";
+import { getOptions } from "ts-loader-utils";
+import utils from "skyui-utils-collection";
 import { TemplateOptions } from "lodash";
 
 import webpack from "webpack";
-
-import schema from "./schema";
 
 export type pluginTemplateOptions = TemplateOptions;
 
@@ -31,9 +29,9 @@ export type PluginOptions = {
 
 export default function(this: webpack.loader.LoaderContext): PluginOptions {
     const options = getOptions(this) ? getOptions(this) : {};
-    const query = this.query ? this.query : "?{}";
+    // const query = utils.isUndefinedOrNull(this.query) ? "?{}" : this.query;
 
-    const userOptions = schema(_.assign(options, parseQuery(query)));
+    // const userOptions = schema(Object.assign(options, parseQuery(query)));
 
     const defaultOptions: PluginOptions = {
         template: {},
@@ -46,5 +44,5 @@ export default function(this: webpack.loader.LoaderContext): PluginOptions {
             advancedTranslation: false
         }
     };
-    return _.merge(defaultOptions, userOptions);
+    return utils.mergeDeep(defaultOptions, options);
 }

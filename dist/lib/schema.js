@@ -1,6 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const tslib_1 = require("tslib");
+const lodash_1 = tslib_1.__importDefault(require("lodash"));
+const skyui_utils_collection_1 = tslib_1.__importDefault(require("skyui-utils-collection"));
 const chalklog_1 = tslib_1.__importDefault(require("./utils/chalklog"));
 const defaultWarnMsg = ` option input type is invalid,\n` +
     "Please refer to https://www.baidu.com for configuration information,\n" +
@@ -10,7 +12,7 @@ const defaultWarnMsg = ` option input type is invalid,\n` +
  * @param attrs
  */
 function validateAttributes(attrs) {
-    if (attrs && !Array.isArray(attrs)) {
+    if (lodash_1.default.isArray(attrs)) {
         chalklog_1.default({ type: "warn", msg: "attributes" + defaultWarnMsg });
         attrs = undefined;
     }
@@ -39,12 +41,14 @@ function validateBabel(babel) {
  * @param template
  */
 function validateTemplate(template) {
-    const validateVar = template && template.variable && typeof template.variable !== "string";
-    if (validateVar) {
-        chalklog_1.default({
-            type: "warn",
-            msg: "template.variable" + defaultWarnMsg
-        });
+    if (template) {
+        if (!(skyui_utils_collection_1.default.isUndefinedOrNull(template.variable) &&
+            typeof template.variable === "string")) {
+            chalklog_1.default({
+                type: "warn",
+                msg: "template.variable" + defaultWarnMsg
+            });
+        }
     }
     return template;
 }

@@ -1,6 +1,6 @@
 {
     "name": "ejs-babel-loader",
-    "version": "1.3.0",
+    "version": "1.3.5",
     "description": "Webpack loader program that handles lodash template and supports babel translation",
     "main": "./dist/index.js",
     "typings": "./types/index.d.ts",
@@ -19,6 +19,13 @@
         "lodash.template",
         "babel"
     ],
+    "files": [
+        "package.json",
+        "dist",
+        "types",
+        "LICENSE",
+        "README.md"
+    ],
     "author": "skybluefeet <yakun1593@163.com>",
     "license": "MIT",
     "bugs": {
@@ -29,19 +36,18 @@
     "devDependencies": {
         "@types/babel__core": "^7.1.3",
         "@types/lodash": "^4.14.149",
+        "@types/lodash.template": "^4.4.6",
         "@types/webpack": "^4.41.3",
         "babel-plugin-transform-remove-strict-mode-tags": "0.0.1",
         "tslib": "^1.10.0",
-        "typescript": "^3.7.5"
+        "typescript": "^3.7.5",
+        "webpack": "^4.41.5"
     },
     "dependencies": {
-        "@babel/core": "^7.7.5",
-        "@babel/plugin-transform-runtime": "^7.8.3",
-        "@babel/preset-env": "^7.7.6",
         "chalk": "^3.0.0",
-        "core-js": "^3.6.4",
         "fastparse": "^1.1.2",
-        "lodash": "^4.17.15",
+        "lodash.template": "^4.5.0",
+        "skyui-utils-collection": "^1.0.0",
         "ts-loader-utils": "^1.1.2"
     }
 }

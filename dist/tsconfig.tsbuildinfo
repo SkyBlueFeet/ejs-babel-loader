@@ -165,6 +165,10 @@
         "version": "bbf144d4354e2aaa6439f32761f3ee798cc68d1600adab6e2a596f25269f106d",
         "signature": "bbf144d4354e2aaa6439f32761f3ee798cc68d1600adab6e2a596f25269f106d"
       },
+      "../node_modules/@types/lodash.template/index.d.ts": {
+        "version": "d976370cc3fd26fdb7c39356d9d00982dbeaf58e94c445b932e8e52647ddf468",
+        "signature": "d976370cc3fd26fdb7c39356d9d00982dbeaf58e94c445b932e8e52647ddf468"
+      },
       "../node_modules/@types/node/globals.d.ts": {
         "version": "9a52fe500e1e0ed7362ae65094ec6d4f655033d21f873886211e252fc9c5b9c8",
         "signature": "9a52fe500e1e0ed7362ae65094ec6d4f655033d21f873886211e252fc9c5b9c8"
@@ -278,8 +282,8 @@
         "signature": "9a09086b0c33e65f14a17eb0e9d415cab597e0b687a1a45d4b59663706451dbe"
       },
       "../node_modules/@types/node/stream.d.ts": {
-        "version": "d478494d17597c128093023088df8b60766ebf38605a451f319dbd2e46b51950",
-        "signature": "d478494d17597c128093023088df8b60766ebf38605a451f319dbd2e46b51950"
+        "version": "0364716f6c834826cdfb83e8dfaec06e7e3988c7983a5e77d406931bf1a83f53",
+        "signature": "0364716f6c834826cdfb83e8dfaec06e7e3988c7983a5e77d406931bf1a83f53"
       },
       "../node_modules/@types/node/string_decoder.d.ts": {
         "version": "7e62aac2cc9c0710d772047ad89e8d7117f52592c791eb995ce1f865fedab432",
@@ -353,7 +357,7 @@
         "version": "963e0182287755a18c98493cd70f6747b776f1a54c8620353e1f8e2e17b6cd3a",
         "signature": "963e0182287755a18c98493cd70f6747b776f1a54c8620353e1f8e2e17b6cd3a"
       },
-      "../node_modules/@types/uglify-js/node_modules/source-map/source-map.d.ts": {
+      "../node_modules/source-map/source-map.d.ts": {
         "version": "2887592574fcdfd087647c539dcb0fbe5af2521270dad4a37f9d17c16190d579",
         "signature": "2887592574fcdfd087647c539dcb0fbe5af2521270dad4a37f9d17c16190d579"
       },
@@ -364,14 +368,6 @@
       "../node_modules/@types/anymatch/index.d.ts": {
         "version": "48b52264fa193879a074197839dbb4796fa07e86350ff888e5361e06aa46df76",
         "signature": "48b52264fa193879a074197839dbb4796fa07e86350ff888e5361e06aa46df76"
-      },
-      "../node_modules/@types/webpack/node_modules/source-map/source-map.d.ts": {
-        "version": "2887592574fcdfd087647c539dcb0fbe5af2521270dad4a37f9d17c16190d579",
-        "signature": "2887592574fcdfd087647c539dcb0fbe5af2521270dad4a37f9d17c16190d579"
-      },
-      "../node_modules/@types/webpack-sources/node_modules/source-map/source-map.d.ts": {
-        "version": "2887592574fcdfd087647c539dcb0fbe5af2521270dad4a37f9d17c16190d579",
-        "signature": "2887592574fcdfd087647c539dcb0fbe5af2521270dad4a37f9d17c16190d579"
       },
       "../node_modules/@types/source-list-map/index.d.ts": {
         "version": "67fc055eb86a0632e2e072838f889ffe1754083cb13c8c80a06a7d895d877aae",
@@ -429,20 +425,32 @@
         "version": "9a20fb0036e2cf45b8c7f5564ceec2a660856349143bebe1acff47508b5f1101",
         "signature": "9a20fb0036e2cf45b8c7f5564ceec2a660856349143bebe1acff47508b5f1101"
       },
-      "../node_modules/chalk/index.d.ts": {
-        "version": "f416820e2e8f33a5e07698bd5f50acf6db29716d98896ec1bf11b483d3ed4c54",
-        "signature": "f416820e2e8f33a5e07698bd5f50acf6db29716d98896ec1bf11b483d3ed4c54"
+      "../node_modules/skyui-utils-collection/types/src/array.d.ts": {
+        "version": "ca76dbebe2102eb2dad121752ab8c4a5aae63ba4a66f4937225bdf8cc35b9210",
+        "signature": "ca76dbebe2102eb2dad121752ab8c4a5aae63ba4a66f4937225bdf8cc35b9210"
       },
-      "../lib/utils/chalklog.ts": {
-        "version": "1226693cb6860b76e63850ea8a3d4a02325ac33e11dccdd588cc1da3484188bb",
-        "signature": "6fef280e52d6d9929d03f94f581ce83addca8294a8f9bba62c763e861276465c"
+      "../node_modules/skyui-utils-collection/types/src/common.d.ts": {
+        "version": "d3c4556281b4f9268a5b4a9ab699660d21bc4079f9688fd18af2be97226630b0",
+        "signature": "d3c4556281b4f9268a5b4a9ab699660d21bc4079f9688fd18af2be97226630b0"
       },
-      "../lib/schema.ts": {
-        "version": "40e3d979c3ff102b7038916ef863f1717710557670d7376d9a93ee94d3dd2801",
-        "signature": "c3f6783291cd5f354969fe9de512efe58f83660efaed147793a1451ce13438b0"
+      "../node_modules/skyui-utils-collection/types/src/apply.d.ts": {
+        "version": "1e5fdba7672fdce85977875c6fa2e7171c3f3eeb77c47d0d71556c9be4507348",
+        "signature": "1e5fdba7672fdce85977875c6fa2e7171c3f3eeb77c47d0d71556c9be4507348"
+      },
+      "../node_modules/skyui-utils-collection/types/src/object.d.ts": {
+        "version": "32206b85858065de4ef09ab8d6a7f1ac6e1fbcc59fc94cfdb46be19c7a134bae",
+        "signature": "32206b85858065de4ef09ab8d6a7f1ac6e1fbcc59fc94cfdb46be19c7a134bae"
+      },
+      "../node_modules/skyui-utils-collection/types/src/operation.d.ts": {
+        "version": "37419783859bc574386c38f588b51952a1f2e925737fcbc37579f148a5c44cbb",
+        "signature": "37419783859bc574386c38f588b51952a1f2e925737fcbc37579f148a5c44cbb"
+      },
+      "../node_modules/skyui-utils-collection/types/index.d.ts": {
+        "version": "dc0c568ca2de7e94da14571104dc3d3a2b8289ce29413125c2df9fdfff6ca206",
+        "signature": "dc0c568ca2de7e94da14571104dc3d3a2b8289ce29413125c2df9fdfff6ca206"
       },
       "../lib/options.ts": {
-        "version": "c9247e58f57a18e1166ddf35dec8b43941cbacb0cc263f2651e0b9eb02ca34bd",
+        "version": "8b0bd2872ea669e71276062545a31695d1f73f32f3f0d4800a9879c644473069",
         "signature": "aa3cb80a2b504792faf720075a9ba0a4743173c9973628f7c2324c0401902165"
       },
       "../node_modules/@babel/types/lib/index.d.ts": {
@@ -470,24 +478,36 @@
         "signature": "8b6748f9e15ad7bac494dc3cd3b13ba0a8be195aca97f7c10a96b1c74a956f32"
       },
       "../lib/babel.ts": {
-        "version": "428cc4bc80bcbb6f6e3b4776ffd683f6cfe7712f6a3d0cc1fb21bb93b531f9a4",
-        "signature": "65638d0107b14e9d123605b7d4c4e145d91618de8c568359595174f782c7aef9"
+        "version": "2dc17ea60bef3138aff1129edca4c0e62a8a19f3d2630fb3281178dd69e55a66",
+        "signature": "b5209cd969f94e9cdcf8f3e901e9d0685906c083e937c1b1b326968a301c1d2d"
       },
       "../lib/utils/attributesParser.ts": {
         "version": "39b7fa0a67efc513e4d8c14d1adbb887ff899265c4a88653fe6804fc8f487bc5",
         "signature": "eee1afb3daf6912a1bc8472f6468c124bedaa4b357f094852772c03568a50527"
       },
-      "../lib/attrs.ts": {
+      "../lib/attributes.ts": {
         "version": "cdbe337464d5157096d653ddc24bcb4848839db40b3b0be0bf8e31e59d32ff08",
         "signature": "be1ed4ec657a5ab87d2334e353e4b23f35065c75abb5503abaf4a86180aafc95"
       },
       "../index.ts": {
-        "version": "0c281493a6967c3f80a848d80db3c4606a31ff742c4d3eaebeffa73946843eff",
+        "version": "562aefd226cc6a89d49aa60ae35f0dd55aa2e80972051abcced4d70bdb9fc2da",
         "signature": "da332aabd7db33b5bc1a96751bd16b4a0026986dbd70b44d3134aebc2af941b4"
       },
       "../lib/minify.ts": {
         "version": "693d628ecc6658c29b509c419c694097fbafddc749d257bd1607ac5686c2a4f0",
         "signature": "3131422db73c05affcc64a8fad468c9882b00239551f42bc846ffd8fb3c5f265"
+      },
+      "../node_modules/chalk/index.d.ts": {
+        "version": "f416820e2e8f33a5e07698bd5f50acf6db29716d98896ec1bf11b483d3ed4c54",
+        "signature": "f416820e2e8f33a5e07698bd5f50acf6db29716d98896ec1bf11b483d3ed4c54"
+      },
+      "../lib/utils/chalklog.ts": {
+        "version": "1226693cb6860b76e63850ea8a3d4a02325ac33e11dccdd588cc1da3484188bb",
+        "signature": "6fef280e52d6d9929d03f94f581ce83addca8294a8f9bba62c763e861276465c"
+      },
+      "../lib/schema.ts": {
+        "version": "da0cd95e8233a52abd95ba0a08d6482206ad8842afc90bf0f56d8595e8939a2a",
+        "signature": "c3f6783291cd5f354969fe9de512efe58f83660efaed147793a1451ce13438b0"
       }
     },
     "options": {
@@ -924,6 +944,13 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.5/util.d.ts"
       ],
+      "../node_modules/@types/lodash.template/index.d.ts": [
+        "../node_modules/@types/lodash/ts3.1/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.5/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.5/util.d.ts"
+      ],
       "../node_modules/@types/node/globals.d.ts": [
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.5/fs.d.ts",
@@ -1297,32 +1324,20 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.5/util.d.ts"
       ],
-      "../node_modules/@types/uglify-js/node_modules/source-map/source-map.d.ts": [
+      "../node_modules/source-map/source-map.d.ts": [
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.5/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.5/util.d.ts"
       ],
       "../node_modules/@types/uglify-js/index.d.ts": [
-        "../node_modules/@types/uglify-js/node_modules/source-map/source-map.d.ts",
+        "../node_modules/source-map/source-map.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.5/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.5/util.d.ts"
       ],
       "../node_modules/@types/anymatch/index.d.ts": [
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.5/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.5/util.d.ts"
-      ],
-      "../node_modules/@types/webpack/node_modules/source-map/source-map.d.ts": [
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.5/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.5/util.d.ts"
-      ],
-      "../node_modules/@types/webpack-sources/node_modules/source-map/source-map.d.ts": [
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.5/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -1336,7 +1351,7 @@
       ],
       "../node_modules/@types/webpack-sources/index.d.ts": [
         "../node_modules/@types/node/crypto.d.ts",
-        "../node_modules/@types/uglify-js/node_modules/source-map/source-map.d.ts",
+        "../node_modules/source-map/source-map.d.ts",
         "../node_modules/@types/source-list-map/index.d.ts",
         "../node_modules/@types/node/ts3.5/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -1348,7 +1363,7 @@
         "../node_modules/@types/tapable/index.d.ts",
         "../node_modules/@types/uglify-js/index.d.ts",
         "../node_modules/@types/anymatch/index.d.ts",
-        "../node_modules/@types/uglify-js/node_modules/source-map/source-map.d.ts",
+        "../node_modules/source-map/source-map.d.ts",
         "../node_modules/@types/webpack-sources/index.d.ts",
         "../node_modules/@types/node/ts3.5/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -1438,22 +1453,42 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.5/util.d.ts"
       ],
-      "../node_modules/chalk/index.d.ts": [
+      "../node_modules/skyui-utils-collection/types/src/array.d.ts": [
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.5/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.5/util.d.ts"
       ],
-      "../lib/utils/chalklog.ts": [
-        "../node_modules/chalk/index.d.ts",
+      "../node_modules/skyui-utils-collection/types/src/common.d.ts": [
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.5/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.5/util.d.ts"
       ],
-      "../lib/schema.ts": [
-        "../lib/options.ts",
-        "../lib/utils/chalklog.ts",
+      "../node_modules/skyui-utils-collection/types/src/apply.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.5/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "../node_modules/skyui-utils-collection/types/src/object.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.5/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "../node_modules/skyui-utils-collection/types/src/operation.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.5/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "../node_modules/skyui-utils-collection/types/index.d.ts": [
+        "../node_modules/skyui-utils-collection/types/src/array.d.ts",
+        "../node_modules/skyui-utils-collection/types/src/common.d.ts",
+        "../node_modules/skyui-utils-collection/types/src/apply.d.ts",
+        "../node_modules/skyui-utils-collection/types/src/object.d.ts",
+        "../node_modules/skyui-utils-collection/types/src/operation.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.5/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -1461,9 +1496,9 @@
       ],
       "../lib/options.ts": [
         "../node_modules/ts-loader-utils/dist/types/index.d.ts",
+        "../node_modules/skyui-utils-collection/types/index.d.ts",
         "../node_modules/@types/lodash/ts3.1/index.d.ts",
         "../node_modules/@types/webpack/index.d.ts",
-        "../lib/schema.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.5/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -1530,7 +1565,7 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.5/util.d.ts"
       ],
-      "../lib/attrs.ts": [
+      "../lib/attributes.ts": [
         "../lib/utils/attributesParser.ts",
         "../lib/options.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -1539,17 +1574,40 @@
         "../node_modules/@types/node/ts3.5/util.d.ts"
       ],
       "../index.ts": [
-        "../node_modules/@types/lodash/ts3.1/index.d.ts",
+        "../node_modules/@types/lodash.template/index.d.ts",
         "../node_modules/@types/webpack/index.d.ts",
         "../lib/options.ts",
         "../lib/babel.ts",
-        "../lib/attrs.ts",
+        "../lib/attributes.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.5/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.5/util.d.ts"
       ],
       "../lib/minify.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.5/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "../node_modules/chalk/index.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.5/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "../lib/utils/chalklog.ts": [
+        "../node_modules/chalk/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.5/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "../lib/schema.ts": [
+        "../node_modules/@types/lodash/ts3.1/index.d.ts",
+        "../node_modules/skyui-utils-collection/types/index.d.ts",
+        "../lib/options.ts",
+        "../lib/utils/chalklog.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.5/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -1761,22 +1819,29 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.5/util.d.ts"
       ],
-      "../index.ts": [
-        "../node_modules/@types/webpack/index.d.ts"
+      "../lib/schema.ts": [
+        "../lib/options.ts"
       ],
       "../lib/options.ts": [
         "../node_modules/@types/lodash/ts3.1/index.d.ts",
         "../node_modules/@types/webpack/index.d.ts"
       ],
-      "../lib/attrs.ts": [
+      "../index.ts": [
+        "../node_modules/@types/webpack/index.d.ts"
+      ],
+      "../lib/attributes.ts": [
         "../lib/options.ts"
       ],
       "../lib/babel.ts": [
         "../node_modules/@types/webpack/index.d.ts",
         "../lib/options.ts"
       ],
-      "../lib/schema.ts": [
-        "../lib/options.ts"
+      "../node_modules/@types/lodash.template/index.d.ts": [
+        "../node_modules/@types/lodash/ts3.1/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.5/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.5/util.d.ts"
       ],
       "../node_modules/@types/lodash/ts3.1/common/util.d.ts": [
         "../node_modules/@types/lodash/ts3.1/index.d.ts",
@@ -2068,7 +2133,7 @@
         "../node_modules/@types/tapable/index.d.ts",
         "../node_modules/@types/uglify-js/index.d.ts",
         "../node_modules/@types/anymatch/index.d.ts",
-        "../node_modules/@types/uglify-js/node_modules/source-map/source-map.d.ts",
+        "../node_modules/source-map/source-map.d.ts",
         "../node_modules/@types/webpack-sources/index.d.ts",
         "../node_modules/@types/node/ts3.5/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -2113,7 +2178,7 @@
       ],
       "../node_modules/@types/webpack-sources/index.d.ts": [
         "../node_modules/@types/node/crypto.d.ts",
-        "../node_modules/@types/uglify-js/node_modules/source-map/source-map.d.ts",
+        "../node_modules/source-map/source-map.d.ts",
         "../node_modules/@types/source-list-map/index.d.ts",
         "../node_modules/@types/node/ts3.5/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -2326,6 +2391,12 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.5/util.d.ts"
       ],
+      "../node_modules/chalk/index.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.5/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.5/util.d.ts"
+      ],
       "../node_modules/@types/babel__core/index.d.ts": [
         "../node_modules/@types/babel__generator/index.d.ts",
         "../node_modules/@types/babel__traverse/index.d.ts",
@@ -2372,7 +2443,42 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.5/util.d.ts"
       ],
-      "../node_modules/chalk/index.d.ts": [
+      "../node_modules/skyui-utils-collection/types/index.d.ts": [
+        "../node_modules/skyui-utils-collection/types/src/array.d.ts",
+        "../node_modules/skyui-utils-collection/types/src/common.d.ts",
+        "../node_modules/skyui-utils-collection/types/src/apply.d.ts",
+        "../node_modules/skyui-utils-collection/types/src/object.d.ts",
+        "../node_modules/skyui-utils-collection/types/src/operation.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.5/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "../node_modules/skyui-utils-collection/types/src/operation.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.5/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "../node_modules/skyui-utils-collection/types/src/object.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.5/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "../node_modules/skyui-utils-collection/types/src/apply.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.5/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "../node_modules/skyui-utils-collection/types/src/common.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.5/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.5/util.d.ts"
+      ],
+      "../node_modules/skyui-utils-collection/types/src/array.d.ts": [
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.5/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -2408,18 +2514,6 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.5/util.d.ts"
       ],
-      "../node_modules/@types/webpack-sources/node_modules/source-map/source-map.d.ts": [
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.5/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.5/util.d.ts"
-      ],
-      "../node_modules/@types/webpack/node_modules/source-map/source-map.d.ts": [
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.5/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.5/util.d.ts"
-      ],
       "../node_modules/@types/anymatch/index.d.ts": [
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.5/fs.d.ts",
@@ -2427,13 +2521,13 @@
         "../node_modules/@types/node/ts3.5/util.d.ts"
       ],
       "../node_modules/@types/uglify-js/index.d.ts": [
-        "../node_modules/@types/uglify-js/node_modules/source-map/source-map.d.ts",
+        "../node_modules/source-map/source-map.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.5/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.5/util.d.ts"
       ],
-      "../node_modules/@types/uglify-js/node_modules/source-map/source-map.d.ts": [
+      "../node_modules/source-map/source-map.d.ts": [
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.5/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -2558,6 +2652,7 @@
       "../node_modules/@types/lodash/ts3.1/common/string.d.ts",
       "../node_modules/@types/lodash/ts3.1/common/util.d.ts",
       "../node_modules/@types/lodash/ts3.1/index.d.ts",
+      "../node_modules/@types/lodash.template/index.d.ts",
       "../node_modules/@types/node/globals.d.ts",
       "../node_modules/@types/node/assert.d.ts",
       "../node_modules/@types/node/async_hooks.d.ts",
@@ -2605,11 +2700,9 @@
       "../node_modules/@types/node/ts3.5/wasi.d.ts",
       "../node_modules/@types/node/ts3.5/index.d.ts",
       "../node_modules/@types/tapable/index.d.ts",
-      "../node_modules/@types/uglify-js/node_modules/source-map/source-map.d.ts",
+      "../node_modules/source-map/source-map.d.ts",
       "../node_modules/@types/uglify-js/index.d.ts",
       "../node_modules/@types/anymatch/index.d.ts",
-      "../node_modules/@types/webpack/node_modules/source-map/source-map.d.ts",
-      "../node_modules/@types/webpack-sources/node_modules/source-map/source-map.d.ts",
       "../node_modules/@types/source-list-map/index.d.ts",
       "../node_modules/@types/webpack-sources/index.d.ts",
       "../node_modules/@types/webpack/index.d.ts",
@@ -2624,9 +2717,12 @@
       "../node_modules/ts-loader-utils/dist/types/getHashDigest.d.ts",
       "../node_modules/ts-loader-utils/dist/types/interpolateName.d.ts",
       "../node_modules/ts-loader-utils/dist/types/index.d.ts",
-      "../node_modules/chalk/index.d.ts",
-      "../lib/utils/chalklog.ts",
-      "../lib/schema.ts",
+      "../node_modules/skyui-utils-collection/types/src/array.d.ts",
+      "../node_modules/skyui-utils-collection/types/src/common.d.ts",
+      "../node_modules/skyui-utils-collection/types/src/apply.d.ts",
+      "../node_modules/skyui-utils-collection/types/src/object.d.ts",
+      "../node_modules/skyui-utils-collection/types/src/operation.d.ts",
+      "../node_modules/skyui-utils-collection/types/index.d.ts",
       "../lib/options.ts",
       "../node_modules/@babel/types/lib/index.d.ts",
       "../node_modules/@types/babel__generator/index.d.ts",
@@ -2636,9 +2732,12 @@
       "../node_modules/@types/babel__core/index.d.ts",
       "../lib/babel.ts",
       "../lib/utils/attributesParser.ts",
-      "../lib/attrs.ts",
+      "../lib/attributes.ts",
       "../index.ts",
       "../lib/minify.ts",
+      "../node_modules/chalk/index.d.ts",
+      "../lib/utils/chalklog.ts",
+      "../lib/schema.ts",
       "../node_modules/typescript/lib/lib.es2015.d.ts",
       "../node_modules/typescript/lib/lib.es2016.d.ts",
       "../node_modules/typescript/lib/lib.es2017.d.ts",
