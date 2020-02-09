@@ -4,8 +4,6 @@
 
 A webpack loader that supports lodash template tag extraction and es6 syntax translation. This loader is inspired by ejs-loader. It is written to improve the shortcomings of ejs-loader. Some functions are still experimental. Please use with caution.
 
-[中文文档](https://github.com/SkyBlueFeet/ejs-babel-loader/blob/master/README.zh.md)
-
 ### Basic skills
 
 Translate lodash template syntax into functions with parameters and freely import and export

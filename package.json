@@ -9,6 +9,7 @@
         "build": "rimraf types && rimraf dist && tsc",
         "toPublish": "nrm use npm && npm publish && nrm use cnpm"
     },
+    "readme": "README.en.md",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/SkyBlueFeet/ejs-babel-loader.git"
